@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavenderblush ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.profile-container {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.profile-id {
+    margin: 0;
+    font-size: 18px;
+    color: #777;
+}
